@@ -6,4 +6,4 @@
   - **tf** validate and fmt to make sure config is valid for Terraform
   - **tf** apply and typing "yes" will create the infrastructure
   - **docker ps** shows the container running once terraform is done 
-  - the container will only run once at a time, and if you rerun the plan it destroys the old container
+  - the container will only run one at a time, and if you rerun the plan it destroys the old container
